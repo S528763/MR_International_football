@@ -24,18 +24,25 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 ### Data Source
 
 * Kaggle - https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data
+* No of Records : 38,759
+* Size : 2.5 MB
+* File format : CSV
+* Format : Structured
 
-This dataset includes 38,759 results of international football matches starting from the very first official match in 1972 up to 2018. The matches range from World Cup to Baltic Cup to regular friendly matches.
+This dataset includes results of international football matches starting from the very first official match in 1972 up to 2018. The matches range from World Cup to Baltic Cup to regular friendly matches.
 
 ### Challenges ###
 
 * 
 ### Big Data Questions ###
 
-* For each team, how many wins as a home team?
-* For each tournament, how many matches were played?
-* For each team, how many matches were played?
-* For each tournament, how many matches were played?
+a. For each team, how many wins as a home team?
+
+b. For each tournament, how many matches were played?
+
+c. For each team, how many matches were played?
+
+d. For each tournament, how many matches were played?
 
 ### Big Data Solutions ###
 
