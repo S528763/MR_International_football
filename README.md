@@ -38,15 +38,30 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 
 2. For each tournament, how many matches were played?
 
-3. For each team, how many matches were played?
+3. For each year, how many matches were played?
+4. For each team, how many matches were played?
 
-4. For each tournament, how many matches were played?
 
 ### Big Data Solutions
 1. For each team, how many wins as a home team?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
-    * Mapper Output / Reducer Input :   Scotland0,0,0
+    * Mapper Output / Reducer Input :   Scotland,0,0
     * Reducer Output : Scotland   11
     * Kind of chart : Pie chart (Home vs Away wins)
+2. For each tournament, how many matches were played?
+    * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
+    * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
+    * Reducer Output : Friendly   10
+    * Kind of chart : Bar chart (Tournament wise)
+3. For each year, how many matches were played?
+    * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
+    * Mapper Output / Reducer Input :   1872-11-30, Scotland
+    * Reducer Output : 1872   52
+    * Kind of chart : Bar chart (Year wise)
+4. For each team, how many matches were played?
+    * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
+    * Mapper Output / Reducer Input :   Scotland,1872-11-30
+    * Reducer Output : Scotland   10
+    * Kind of chart : Bar chart (Team wise)
 
 
