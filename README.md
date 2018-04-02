@@ -19,7 +19,7 @@ Northwest Missouri State University
 
 ### Introduction
 
-We are going to develop a map-reduce program to analyze the facts for international football.
+We are going to develop a map-reduce program to analyze the facts for international football. We have a dataset which includes results of international football matches starting from the very first official match in 1972 up to 2018. The matches range from World Cup to Baltic Cup to regular friendly matches. 
 
 ### Data Source
 
@@ -29,22 +29,24 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 * File format : CSV
 * Format : Structured
 
-This dataset includes results of international football matches starting from the very first official match in 1972 up to 2018. The matches range from World Cup to Baltic Cup to regular friendly matches.
+### Big Data Qualifications / Challenges
+*
 
-### Challenges ###
+### Big Data Questions
 
-* 
-### Big Data Questions ###
+1. For each team, how many wins as a home team?
 
-a. For each team, how many wins as a home team?
+2. For each tournament, how many matches were played?
 
-b. For each tournament, how many matches were played?
+3. For each team, how many matches were played?
 
-c. For each team, how many matches were played?
+4. For each tournament, how many matches were played?
 
-d. For each tournament, how many matches were played?
+### Big Data Solutions
+1. For each team, how many wins as a home team?
+    * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
+    * Mapper Output / Reducer Input :   Scotland0,0,0
+    * Reducer Output : Scotland   11
+    * Kind of chart : Pie chart (Home vs Away wins)
 
-### Big Data Solutions ###
-
-* 
 
