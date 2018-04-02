@@ -7,10 +7,8 @@ Northwest Missouri State University
 
 ### Team - 1A
 
-* Abhijeet Agrawal
-* Sandeep Mulakala
-* Aditya Srimat Tirumala Pallerlamudi
-* Prathibha Kamani
+* Pair 01 - Abhijeet Agrawal & Sandeep Mulakala
+* Pair 02 - Aditya Srimat Tirumala Pallerlamudi & Prathibha Kamani
 
 ### Links
 
