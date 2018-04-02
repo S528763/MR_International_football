@@ -30,6 +30,8 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 ### Big Data Qualifications / Challenges
 1. Volume: This dataset contains the list of International football results from 1872 to 2018. There are 38759 in total.
 2. Variety: The data is structured and this data is in the forms of characters and integer values.
+3. Velocity: Velocity for these statistics will vary for every tournament played between various teams and results for the matches will be different for every match in each month in a year.
+4. Veracity: It gives us the statistical result for every game played at different cities and countries and it is trustworthy even though published in different websites but most of the times official results of the matches were published by the committee or the sponsors.
 
 ### Big Data Questions
 
