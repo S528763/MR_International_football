@@ -1,7 +1,7 @@
 # Statistics & Facts - International Football (1872-2018)
 
 ---
-Course : 44-564	Design of Data-Intensive Systems
+Course : 44-564_01	Design of Data-Intensive Systems
 
 Northwest Missouri State University
 
@@ -34,12 +34,10 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 
 ### Big Data Questions
 
-1. For each team, how many wins as a home team?
-
-2. For each tournament, how many matches were played?
-
-3. For each year, how many matches were played?
-4. For each team, how many matches were played?
+1. For each team, how many wins as a home team? - Abhijeet Agrawal
+2. For each tournament, how many matches were played? - Sandeep Mulakala
+3. For each year, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
+4. For each team, how many matches were played? - Prathibha Kamani
 
 
 ### Big Data Solutions
