@@ -8,26 +8,26 @@ Northwest Missouri State University
 ### Team - 1A
 
 * Pair 01 - Abhijeet Agrawal & Sandeep Mulakala
-1. Abhijeet Agrawal:
-    * Email id: s530670@nwmissouri.edu
-    * Course: Applied Computer Science
-    * Semester: 02
+    1. Abhijeet Agrawal:
+        * Email id: s530670@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 02
 
-2. Sandeep Mulakala
-    * Email id: s528752@nwmissouri.edu
-    * Course: Applied Computer Science
-    * Semester: 04
+    2. Sandeep Mulakala
+        * Email id: s528752@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 04
 
 * Pair 02 - Aditya Srimat Tirumala Pallerlamudi & Prathibha Kamani
-1. Aditya Srimat Tirumala Pallerlamudi
-    * Email id: s528763@nwmissouri.edu
-    * Course: Applied Computer Science
-    * Semester: 04
+    1. Aditya Srimat Tirumala Pallerlamudi
+        * Email id: s528763@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 04
 
-2. Prathibha Kamani
-    * Email id: s528804@nwmissouri.edu
-    * Course: Applied Computer Science
-    * Semester: 04
+    2. Prathibha Kamani
+        * Email id: s528804@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 04
 
 ### Links
 
