@@ -28,7 +28,8 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 * Data Format : Structured
 
 ### Big Data Qualifications / Challenges
-* 
+1. Volume: This dataset contains the list of International football results from 1872 to 2018. There are 38759 in total.
+2. Variety: The data is structured and this data is in the forms of characters and integer values.
 
 ### Big Data Questions
 
