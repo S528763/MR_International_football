@@ -27,10 +27,10 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 * No of Records : 38,759
 * Size : 2.5 MB
 * File format : CSV
-* Format : Structured
+* Data Format : Structured
 
 ### Big Data Qualifications / Challenges
-*
+* 
 
 ### Big Data Questions
 

@@ -5,7 +5,7 @@ thisKey = ""
 thisCounter = 0
 
 for line in s:
-  data = line.strip().split('\t')
+  data = line.strip().split(',')
   home_team,home_score,away_score = data
 
   if home_team != thisKey:
