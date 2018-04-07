@@ -8,7 +8,26 @@ Northwest Missouri State University
 ### Team - 1A
 
 * Pair 01 - Abhijeet Agrawal & Sandeep Mulakala
+    1. Abhijeet Agrawal:
+        * Email id: s530670@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 02
+
+    2. Sandeep Mulakala
+        * Email id: s528752@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 04
+
 * Pair 02 - Aditya Srimat Tirumala Pallerlamudi & Prathibha Kamani
+    1. Aditya Srimat Tirumala Pallerlamudi
+        * Email id: s528763@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 04
+
+    2. Prathibha Kamani
+        * Email id: s528804@nwmissouri.edu
+        * Course: Applied Computer Science
+        * Semester: 04
 
 ### Links
 
@@ -28,14 +47,18 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 * Data Format : Structured
 
 ### Big Data Qualifications / Challenges
-* 
+1. Volume: This dataset contains the list of International football results from 1872 to 2018. There are 38759 in total.
+2. Variety: The data is structured and this data is in the forms of characters and integer values.
+3. Velocity: Velocity for these statistics will vary for every tournament played between various teams and results for the matches will be different for every match in each month in a year.
+4. Veracity: It gives us the statistical result for every game played at different cities and countries and it is trustworthy even though published in different websites but most of the times official results of the matches were published by the committee or the sponsors.
+5. Value: It is very helpful to the people who follow the football matches and mainly it is used for the analysis purpose of the teams and performance of a particular team over a certain period.
 
 ### Big Data Questions
 
 1. For each team, how many wins as a home team? - Abhijeet Agrawal
 2. For each tournament, how many matches were played? - Sandeep Mulakala
-3. For each year, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
-4. For each team, how many matches were played? - Prathibha Kamani
+3. For each year, how many matches were played? - Prathibha Kamani
+4. For each team, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
 
 
 ### Big Data Solutions
