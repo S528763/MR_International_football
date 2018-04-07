@@ -3,7 +3,7 @@ r = open("reducer_OP.txt", "w")
 
 thisKey = ""
 thisCounter = 0
-
+thisHomeWin = 0
 for line in s:
   data = line.strip().split(',')
   home_team,home_score,away_score = data
@@ -18,11 +18,13 @@ for line in s:
     thisCounter = 0
   
   # apply the aggregation function
-  if home_score > away_score:
+  if int(home_score) > int(away_score):
+    thisHomeWin += 1
     thisCounter += 1
 
 # output the final entry when done
 r.write(thisKey + '\t' + str(thisCounter)+'\n')
+print("Totl win as a Home team :" +  str(thisHomeWin))
 
 s.close()
 r.close()
