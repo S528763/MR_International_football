@@ -57,8 +57,8 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 
 1. For each team, how many wins as a home team? - Abhijeet Agrawal
 2. For each tournament, how many matches were played? - Sandeep Mulakala
-3. For each year, how many matches were played? - Prathibha Kamani
-4. For each team, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
+3. For each year, how many matches were drawn? - Prathibha Kamani
+4. For each team-year, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
 
 
 ### Big Data Solutions
@@ -72,15 +72,15 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
     * Reducer Output : Friendly   10
     * Kind of chart : Bar chart (Tournament wise)
-3. For each year, how many matches were played?
+3. For each year, how many matches were drwan?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   1872-11-30, Scotland
-    * Reducer Output : 1872   52
+    * Reducer Output : 1872   1
     * Kind of chart : Bar chart (Year wise)
-4. For each team, how many matches were played?
+4. For each team-year, how many matches were played?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   Scotland,1872-11-30
-    * Reducer Output : Scotland   10
+    * Reducer Output : For year 1948 Team: Turkey Matches: 4
     * Kind of chart : Bar chart (Team wise)
 
 
