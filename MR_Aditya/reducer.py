@@ -1,8 +1,12 @@
+# Aditya Srimat Tirumala Pallerlamudi - S528763
+
 s = open("sort_OP.txt","r")
 r = open("reducer_OP.txt", "w")
 
 thisKey = ""
 thisCounter = 0
+
+# Created a collection for repeated years
 collection = {}
 for line in s:
   data = line.strip().split(',')
@@ -28,5 +32,6 @@ for line in collection:
   for temp in collection[line]:
     r.write("Team: " + temp + "\tMatches: " + str(collection[line][temp])+"\n")
 
+# Closing the files
 s.close()
 r.close()
