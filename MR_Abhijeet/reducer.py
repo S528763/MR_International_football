@@ -1,6 +1,8 @@
+#Reading the content of the file
 s = open("sort_OP.txt","r")
 r = open("reducer_OP.txt", "w")
 
+#initialiastion
 thisKey = ""
 thisCounter = 0
 thisHomeWin = 0
