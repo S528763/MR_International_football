@@ -18,7 +18,7 @@ for line in data:
 # Storing the cleaned data year, home_score,away_score into listOfData    
     year, home_score, away_score = listOfData
 
-# 
+#  If year exists already then count will be increased by 1 if not it will create a new year 
     if thisKey and thisKey != year:
         sortcateg.write("Year: " + thisKey + "\t Draw matches: " + str(num_draws) + "\n")
         thisKey = year;
