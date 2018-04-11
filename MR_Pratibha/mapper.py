@@ -1,5 +1,5 @@
 # Taking input file results.csv in read mode and taking the contents into variable custom_input
-custom_input = open("results.csv", "r")
+custom_input = open("../data/results.csv", "r")
 
 # Taking output file int_output.txt in write mode and taking the contents into variable output
 output = open("int_output.txt", "w")
