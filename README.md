@@ -74,6 +74,7 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 
     #### Graph
     ![Q1 Output](Output/Q1.PNG)
+    
 2. For each tournament, how many matches were played?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
