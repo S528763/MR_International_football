@@ -81,6 +81,10 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
     * Reducer Output : Friendly   10
     * Kind of chart : Bar chart (Tournament wise)
+    
+    #### Graph
+    ![bar graph.JPG](https://bitbucket.org/repo/Bgdp8dR/images/2646808427-bar%20graph.JPG)
+    
 3. For each year, how many matches were drwan?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   1872-11-30, Scotland
