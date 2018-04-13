@@ -63,10 +63,17 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 
 ### Big Data Solutions
 1. For each team, how many wins as a home team?
+    #### Story : 
+    Our goal is to derive statistics related to number of wins, loss and draws while playing as a home team. To accomplish this, first we designed a mapper which list the home team and there respective scores for the match. We sort the list generated from the mapper output. After the sorting we aggregated the for each team and determined the number of total winns,loss and draws as a Home team.
+    
+    #### Data Flow
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   Scotland,0,0
     * Reducer Output : Scotland   11
     * Kind of chart : Pie chart (Home vs Away wins)
+
+    #### Graphs
+
 2. For each tournament, how many matches were played?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
