@@ -74,7 +74,7 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     * Kind of chart : Pie chart (Home vs Away wins)
 
     #### Graph
-    ![Q1 Output](Output/Q1.PNG)
+    ![Q1](images/Q1.PNG)
     
 2. For each tournament, how many matches were played?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
@@ -83,7 +83,7 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     * Kind of chart : Bar chart (Tournament wise)
     
     #### Graph
-    ![Q2 Output](Output/Q2.jpg)
+    ![Q2](images/Q2.jpg)
     
 3. For each year, how many matches were drwan?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
@@ -103,7 +103,7 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     * Kind of chart : Pareto chart (Home Team wise)
 
     #### Graph
-    ![Q4 Output](Output/Q4.png)
+    ![Q4](images/Q4.png)
 
     
 
