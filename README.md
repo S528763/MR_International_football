@@ -77,6 +77,10 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     ![Q1](images/Q1.PNG)
     
 2. For each tournament, how many matches were played?
+    #### Story :
+    Our goal is to derive statistics related to number of matches played in a prticular tournment. To accomplish this, first we designed a mapper which list all the tournments. We sort the list generated from the mapper output. After the sorting we counted the number of times a tournment is repeated in the sorted output and calculated the number of gmes played in each tournment.
+    
+    #### Data Flow
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
     * Reducer Output : Friendly   10
