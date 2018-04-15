@@ -77,6 +77,11 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     ![Q1](images/Q1.PNG)
     
 2. For each tournament, how many matches were played?
+
+    #### Story :
+    Our goal is to derive statistics related to number of matches played in a prticular tournment. To accomplish this, first we designed a mapper which list all the tournments. We sort the list generated from the mapper output. After the sorting we counted the number of times a tournment is repeated in the sorted output and calculated the number of gmes played in each tournment.
+    
+    #### Data Flow
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   Friendly,1872-11-30,Scotland
     * Reducer Output : Friendly   10
@@ -85,11 +90,19 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     #### Graph
     ![Q2](images/Q2.jpg)
     
-3. For each year, how many matches were drwan?
+3. For each year, how many matches were drawn?
+
+    #### Story : 
+    Our goal is to derive statistics related to number of draw matches in an year. To calculate this, first we have designed a mapper which lists the home score and away score for the match which are of same score. We sort the list generated from the mapper output. After the sorting we have aggregated the drawn matches and reduced to total drawn matches in each and every year.
+
+    #### Data Flow
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   1872-11-30, Scotland
-    * Reducer Output : 1872   1
-    * Kind of chart : Bar chart (Year wise)
+    * Reducer Output : 1872, 1
+    * Kind of chart : Scatter chart (Year wise)
+
+    #### Graph
+    ![Q3](images/Q3.png)
 
 4. For each home team, how many matches were played?
 
