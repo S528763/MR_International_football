@@ -36,7 +36,7 @@ Northwest Missouri State University
 
 ### Introduction
 
-We are going to develop a map-reduce program to analyze the facts for international football. We have a dataset which includes results of international football matches starting from the very first official match in 1972 up to 2018. The matches range from World Cup to Baltic Cup to regular friendly matches. 
+We are going to develop a map-reduce program to analyze the facts for international football. We have a dataset which includes results of international football matches starting from the very first official match in 1872 up to 2018. The matches range from World Cup to Baltic Cup to regular friendly matches.
 
 ### Data Source
 
@@ -58,7 +58,7 @@ We are going to develop a map-reduce program to analyze the facts for internatio
 1. For each team, how many wins as a home team? - Abhijeet Agrawal
 2. For each tournament, how many matches were played? - Sandeep Mulakala
 3. For each year, how many matches were drawn? - Prathibha Kamani
-4. For each team-year, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
+4. For each home team, how many matches were played? - Aditya Srimat Tirumala Pallerlamudi
 
 
 ### Big Data Solutions
@@ -83,17 +83,28 @@ We are going to develop a map-reduce program to analyze the facts for internatio
     * Kind of chart : Bar chart (Tournament wise)
     
     #### Graph
-    ![bar graph.JPG](https://bitbucket.org/repo/Bgdp8dR/images/2646808427-bar%20graph.JPG)
+    ![Q2 Output](Output/Q2.jpg)
     
 3. For each year, how many matches were drwan?
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
     * Mapper Output / Reducer Input :   1872-11-30, Scotland
     * Reducer Output : 1872   1
     * Kind of chart : Bar chart (Year wise)
-4. For each team-year, how many matches were played?
+
+4. For each home team, how many matches were played?
+
+    #### Story : 
+    Our goal is to calculate stats related to number of matches played as a home team. To calculate this, first we have designed a mapper which list all the home teams for all the years from 1872 to 2018. Then, we have sorted the list generated from the mapper output. After that, the sorted output is given as input for reducer and determined the number of total matches played as a Home team.
+
+    #### Data Flow
     * Mapper input : 1872-11-30,Scotland,England,0,0,Friendly,Glasgow,Scotland
-    * Mapper Output / Reducer Input :   Scotland,1872-11-30
-    * Reducer Output : For year 1948 Team: Turkey Matches: 4
-    * Kind of chart : Bar chart (Team wise)
+    * Mapper Output / Reducer Input : Scotland
+    * Reducer Output : Scotland,369
+    * Kind of chart : Pareto chart (Home Team wise)
+
+    #### Graph
+    ![Q4 Output](Output/Q4.png)
+
+    
 
 
